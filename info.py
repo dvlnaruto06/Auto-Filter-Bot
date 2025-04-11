@@ -23,7 +23,6 @@ API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6964203412 1886258592').split()]
 USERNAME = environ.get('USERNAME', 'https://telegram.me/dvl_naruto_06')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002583655280'))
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002153653982').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "")
