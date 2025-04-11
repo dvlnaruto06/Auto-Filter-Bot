@@ -30,7 +30,7 @@ DATABASE_URI2 = environ.get('DATABASE_URI2', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Rahul")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Rahul')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', ''))
-QR_CODE = environ.get('QR_CODE', 'https://envs.sh/wam.jpg')
+QR_CODE = environ.get('QR_CODE', 'https://i.imgur.com/EenjB2D.jpeg')
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 #this vars is for when heroku or koyeb acc get banned, then change this vars as your file to link bot name
@@ -39,10 +39,10 @@ URL = environ.get('URL', '')
 
 # verify system vars
 IS_VERIFY = is_enabled('IS_VERIFY', True)
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', ''))
-TUTORIAL = environ.get("TUTORIAL", "https://youtu.be/0c-i2Lol6LU")
-TUTORIAL2 = environ.get("TUTORIAL2", "https://youtu.be/GdaUbzxDTKs")
-TUTORIAL3 = environ.get("TUTORIAL3", "https://youtu.be/rddlpYLm0G0")
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002583655280'))
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/moviehub4u_update/28")
+TUTORIAL2 = environ.get("TUTORIAL2", "https://t.me/moviehub4u_update/28")
+TUTORIAL3 = environ.get("TUTORIAL3", "https://t.me/moviehub4u_update/28")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/45a270fc6a0a1c183c614.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "8c09653e5c38f84d1b76ad3197c5a023e53b494d")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "onepagelink.in")
