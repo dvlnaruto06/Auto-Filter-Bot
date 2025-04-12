@@ -1,7 +1,7 @@
 from pyrogram import Client, __version__
 from database.ia_filterdb import Media
 from database.users_chats_db import db
-from info import API_ID, API_HASH, ADMINS, BOT_TOKEN, LOG_CHANNEL, PORT, SUPPORT_GROUP
+from info import API_ID, API_HASH, ADMINS, BOT_TOKEN, PORT, SUPPORT_GROUP
 from utils import temp
 from typing import Union, Optional, AsyncGenerator
 from pyrogram import types
