@@ -20,7 +20,7 @@ class Database:
             'shortner': SHORTENER_WEBSITE,
             'api': SHORTENER_API,
             'shortner_two': SHORTENER_WEBSITE2,
-            'api_two': SHORTENER_API2
+            'api_two': SHORTENER_API2,
             'imdb': IMDB,
             'link': LINK_MODE, 
             'is_verify': IS_VERIFY, 
