@@ -3,7 +3,6 @@ from .route import routes
 from asyncio import sleep 
 from datetime import datetime
 from database.users_chats_db import db
-from info import LOG_CHANNEL
 
 async def web_server():
     web_app = web.Application(client_max_size=30000000)
